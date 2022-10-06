@@ -11,6 +11,10 @@ library(stringr)
 # === === === === === === === === === === === === === === === === === ===
 
 ## load data ####
+## if you click on a .csv file on GitHub to open the preview (which may not
+## load if the file is too large), there is a download button that you can
+## use to grab the url of the file itself. That url can be passed directly
+## to read_csv().
 products <- read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-10-04/product_hunt.csv")
 
 # === === === === === === === === === === === === === === === === === ===
